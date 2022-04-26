@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css2?family=Chango&family=Comfortaa&display=swap');
+
+body { background-color: #BDCAF0; font-family: sans-serif;} /* Cor de fundo roxinha e tipografia */
+
+/* Barra de rolagem */
+body::-webkit-scrollbar { width: 12px; } /* Largura */
+
+	body::-webkit-scrollbar-track {	background: #6495ED; } /* Cor de destaque de fundo */
+
+	body::-webkit-scrollbar-thumb { /* Cor da barra em si */
+	background-color: #BDCAF0;
+	border-radius: 10px;
+	border: 2px solid #4169E1;
+	}
+
+.box { /* Caixa branca de fundo */
+	width: 60vw; height: auto;
+	background-color: white;
+	border-radius: 30px 40px;
+	box-shadow: 3px 3px 5px 1px rgba(0, 0, 0, 0.3);
+	margin: 0 auto;
+	text-align: center;
+	padding: 2%;
+}
+
+.none { display: none; }
+
+p.subtitulo {
+	font-size: 16pt;
+	font-family: 'Comfortaa';
+}
+
+.ico { width: 3vw; height: 6vh; }
+
+input { padding: 2%; }
+
+h1 { /* Título gradiente de azul para um azul mais claro */
+	background:  linear-gradient(to right, #191970 25%, #4169E1 75%);
+	background-clip: text;
+	-webkit-background-clip: text;
+	-webkit-text-fill-color:  transparent;
+	font-family: 'Chango';
+}
+
+a:link, a:visited { text-decoration: none; color: #191970;}
+
+fieldset {
+	position: relative;
+	width: 45vw; height: auto;
+	margin: 0 auto; padding: 2%;
+	border-radius: 50px 20px;
+	border: 1.5px solid #191970;
+	box-shadow: 3px 3px 5px 1px rgba(0, 0, 0, 0.1);
+	padding: 2%;
+}
+
+fieldset.requisition div { text-align: justify; }
+
+span#nameRequisition, div#nameRequisition {
+	font-family: 'Chango';
+	color: #4169E1; font-size: 16pt;
+}
+
+span#name-dateRequisition {
+	display: inline;
+}
+
+img#slide {
+	float: right;
+	margin-top: 3vh; margin-right: 3vw;
+	width: 3vw; height: 5vh;
+}
+
+div.center { position: relative; }
+
+div.center img#setor {
+	padding: 2% !important;
+	margin: 0 auto;
+	display: flex;
+	justify-content: center;
+}
+
+div.center img.ico { margin-right: 2%; }
+
+.ico-box {
+	margin: 0 auto;
+	align-items: center;
+	margin-left: 15vw;
+}
+
+div.center p {
+	padding: 1.5%;
+	text-align: center;
+	margin: 0 auto;
+}
+
+span#id { color: #191970; font: bold 12pt sans-serif; }
+
+hr { width: 35vw; background-color: #6495ED; margin: 0 auto;} /* Linhas divisórias */
+
+#insert {
+	display: flex;
+	justify-content: center;
+	color: #4169E1;
+}
+
+footer { /* Rodapé ao fim da página */
+	padding: 5px;
+	text-align: center;
+    color: #322D36;
+    font: italic 12pt sans-serif;
+}

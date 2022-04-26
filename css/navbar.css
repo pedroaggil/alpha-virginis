@@ -1,0 +1,20 @@
+@import url('https://fonts.googleapis.com/css2?family=Chango&family=Comfortaa&display=swap');
+
+.ico-navbar { width: 16px; height: 16px; }
+
+nav {
+	background:  linear-gradient(to right, #4169E1 25%, #191970 75%);
+	font-family: 'Comfortaa';
+}
+
+div#dropdown { float: right; margin-left: 65vw;}
+
+a.posicao { margin-left: 3vw; }
+
+a.on { font-family: 'Chango'; }
+
+a.ativo { background-color: rgba(65, 105, 225, 0.25); }
+
+a.tasks { cursor: pointer; }
+
+div#dropdown ul.navbar-nav ul.dropdown-menu { border-radius: 10px 10px 30px 30px; }

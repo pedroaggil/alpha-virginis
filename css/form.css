@@ -1,0 +1,40 @@
+input, textarea, select, button {
+	border-radius: 30px 20px !important;
+	margin-bottom: 1.5%;
+	padding: 0 !important;
+	text-align: center;
+	border: 1.5px solid #4169E1;
+}
+
+input[type=text] { width: 30vw; }
+
+textarea { width: 30vw; }
+
+div.matriz select { width: 14.5vw; }
+
+div.prazo-setor input[type=date] { width: 14.5vw; }
+div.prazo-setor select { width: 14.5vw; }
+
+div.requerente select { width: 30vw; }
+
+input[type=submit], input[type=reset], button {
+	width: 9.65vw;
+	color: #191970 !important;
+	border: 1.5px solid #191970 !important;
+	background-color: rgba(65, 105, 225, 0.3);
+	font-family: 'Comfortaa';
+}
+
+input, select, button { height: 6vh; }
+
+fieldset.cad { width: 35vw; }
+
+p.reqData {
+	font-family: 'Comfortaa';
+	font-size: 10pt;
+}
+
+p.reqData span#idReq {
+	color: #4169E1;
+	font-weight: bold;
+}

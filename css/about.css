@@ -1,0 +1,62 @@
+.logo-sn { width: 250px; height: 250px; }
+/* .equipe-sn { width: 180px; height: 180px; } */
+
+div.descMember {
+	text-align: justify;
+}
+
+div.members div {
+	display: inline;
+}
+
+div.members img.left {
+	float: left;
+	margin-right: 2vw;
+}
+
+p.dir { float: right; }
+
+div.members img.right {
+	float: right;
+	margin-left: 2vw;
+}
+
+div#nameGremio p {
+	font-family: 'Chango';
+	color: #4169E1; font-size: 16pt;
+	margin-top: 3vh;
+}
+
+.open {
+	display: inline;
+}
+
+.member1 div {
+	text-align: justify;
+	display: flex;
+	align-items: center;
+}
+
+.aboutGremio p {
+	text-align: justify;
+	margin: 0 auto;
+	width: 40vw;
+}
+
+div.descProj {
+	width: 45vw;
+	text-align: justify;
+	margin: 0 auto;
+}
+
+img#logo-av {
+	margin: 0 auto;
+	display: flex;
+	justify-content: center;
+}
+
+p.name {
+	font-family: 'Chango';
+	font-size: 13pt;
+	color: #4169E1;
+}
